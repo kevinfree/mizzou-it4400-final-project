@@ -1,0 +1,16 @@
+This Application generates random mazes.
+It was developed by Kevin Free for IT 4400 at the University of Missouri.
+The algorithm employed is a modified depth first search algorithm, using a list of all cells and a stack to create the maze.
+For more information, view the source code.
+
+To generate a maze, type a value fornumber of rows between 3 and 100 and a value for speed % between 1 and 100.
+Speed % affects how quickly the maze generates.
+Select a passage bias* from the drop down box. 
+Then hit Go! 
+If you abort a maze generation, you can hit Go! again to start a new one, but you cannot resume the maze it was making.
+The entrance is at the top left and exit at the bottom right of the maze.
+Enjoy!
+
+*Passage bias affects the algorithm's choices by making the biased direction more likely to be chosen for the next cell.
+Optional input for the bias magnitude field must be an integer from 1 to 10.
+This will increase the likelihood of that path being chosen when the algorithm makes decisions from 75% to 95% likelihood.
